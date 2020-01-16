@@ -1,4 +1,7 @@
 # initialize variables for user money, the candy machine selection
+# Do NOT use variable with a $ in front.
+# This makes a global variable.
+# Global variables are a bad habit!
 $userCash = nil
 $machine = Hash.new
 # set the selection: the candies and their costs
